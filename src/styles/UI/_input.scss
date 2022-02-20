@@ -1,0 +1,29 @@
+.input-primary {
+  transition: 200ms;
+  border-radius: 0.3rem;
+  border: 1px solid #bfbfbf;
+  padding: 0.8rem 1rem;
+  outline: none;
+
+  &:hover {
+    border-color: map_get($basic, primary);
+  }
+}
+
+.input-primary__wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.input-primary__group {
+  &-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.input-primary__text {
+  margin-bottom: 0.5rem;
+}
